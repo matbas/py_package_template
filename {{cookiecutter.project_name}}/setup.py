@@ -7,7 +7,7 @@ with open('README.rst') as f:
 
 setup(
     name='{{ cookiecutter.project_name }}',
-    version='{{ cookiecuter.version }}',
+    version='{{ cookiecutter.version }}',
     description='{{ cookiecutter.description }}',
     author='{{ cookiecutter.full_name }}',
     author_email='{{ cookiecutter.email }}',
