@@ -2,6 +2,4 @@
 
 import pytest
 
-from .context import {{ cookiecutter.project_name }}
-
-
+from {{ cookiecutter.project_name }} import {{ cookiecutter.project_name }}
