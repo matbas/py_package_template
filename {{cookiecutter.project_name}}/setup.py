@@ -12,5 +12,8 @@ setup(
     author='{{ cookiecutter.full_name }}',
     author_email='{{ cookiecutter.email }}',
     url='https://github.com/matbas/{{ cookiecutter.project_name }}',
-    packages=find_packages(exclude=('tests', 'docs'))
+    packages=find_packages(exclude=('tests', 'docs')),
+    entry_points={
+        'console_scripts': ['{{ cookiecutter.project_name }}={{ cookiecutter.project_name }}:main']
+        },
 )
